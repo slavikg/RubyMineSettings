@@ -1,0 +1,2 @@
+#!/bin/sh
+HEROKU_APP=rails-boilerplate-staging HKAPP=rails-boilerplate-staging exec "${HEROKU_COMMAND:-heroku}" "$@"

@@ -1,0 +1,24 @@
+linters:
+  DisableLinterReason:
+    enabled: true
+  MergeableSelector:
+    enabled: false
+  TransitionAll:
+    enabled: false
+  VariableForProperty:
+    enabled: true
+    properties:
+      - color
+      - font
+  VendorPrefix:
+    enabled: false
+  ColorKeyword:
+    enabled: false
+  ElsePlacement:
+    enabled: true
+    style: new_line
+  ExtendDirective:
+    enabled: false
+  LeadingZero:
+    enabled: true
+    style: include_zero

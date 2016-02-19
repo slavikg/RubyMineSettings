@@ -1,0 +1,71 @@
+# Offense count: 2
+Lint/HandleExceptions:
+  Exclude:
+    - 'bin/rails'
+    - 'bin/rake'
+
+# Offense count: 35
+# Configuration parameters: AllowURI, URISchemes.
+Metrics/LineLength:
+  Max: 110
+
+Metrics/ClassLength:
+  Max: 110
+
+Metrics/ModuleLength:
+  Max: 110
+
+Metrics/ModuleLength:
+  Exclude:
+    - test/**/*.rb
+
+Metrics/ClassLength:
+  Exclude:
+    - test/**/*.rb
+
+Metrics/MethodLength:
+  Exclude:
+    - test/**/*.rb
+
+Metrics/AbcSize:
+  Exclude:
+    - test/**/*.rb
+
+# Offense count: 1
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/ClassAndModuleChildren:
+  Exclude:
+    - 'test/test_helper.rb'
+
+Style/Documentation:
+  Enabled: false
+
+# Offense count: 1
+# Cop supports --auto-correct.
+Style/EmptyLines:
+  Exclude:
+    - 'config/environments/development.rb'
+
+# Offense count: 2
+# Cop supports --auto-correct.
+# Configuration parameters: EnforcedStyle, SupportedStyles.
+Style/EmptyLinesAroundBlockBody:
+  Exclude:
+    - 'db/schema.rb'
+
+Style/StringLiterals:
+  Exclude:
+    - 'db/schema.rb'
+
+# Offense count: 1
+# Cop supports --auto-correct.
+# Configuration parameters: AllowForAlignment.
+Style/ExtraSpacing:
+  Exclude:
+    - 'config/environments/development.rb'
+
+# Offense count: 1
+# Configuration parameters: NamePrefix, NamePrefixBlacklist.
+Style/PredicateName:
+  Exclude:
+    - 'app/helpers/application_helper.rb'
