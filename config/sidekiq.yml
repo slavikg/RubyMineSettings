@@ -1,4 +1,0 @@
-:verbose: false
-:concurrency: <%= ENV["RETS_SIDEKIQ_CONCURRENCY"] || 1 %>
-:queues:
-  - default
