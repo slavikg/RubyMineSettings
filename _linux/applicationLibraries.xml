@@ -926,6 +926,14 @@
         <root url="file:///var/lib/gems/2.3.0/gems/hashr-2.0.0/lib" />
       </SOURCES>
     </library>
+    <library name="heroku-api (v0.3.23, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/2.3.0/gems/heroku-api-0.3.23/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///var/lib/gems/2.3.0/gems/heroku-api-0.3.23/lib" />
+      </SOURCES>
+    </library>
     <library name="heroku-deflater (v0.6.2, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.3.0/gems/heroku-deflater-0.6.2/lib" />
@@ -950,6 +958,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file:///var/lib/gems/2.3.0/gems/http-cookie-1.0.2/lib" />
+      </SOURCES>
+    </library>
+    <library name="httpi (v2.4.1, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/2.3.0/gems/httpi-2.4.1/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///var/lib/gems/2.3.0/gems/httpi-2.4.1/lib" />
       </SOURCES>
     </library>
     <library name="i18n (v0.7.0, ruby-2.3.0-p0) [gem]">
@@ -1116,6 +1132,14 @@
       </CLASSES>
       <SOURCES>
         <root url="file:///var/lib/gems/2.3.0/gems/mail-2.6.3/lib" />
+      </SOURCES>
+    </library>
+    <library name="mandrill (v0.0.4, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/2.3.0/gems/mandrill-0.0.4/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///var/lib/gems/2.3.0/gems/mandrill-0.0.4/lib" />
       </SOURCES>
     </library>
     <library name="memcachier (v0.0.2, ruby-2.3.0-p0) [gem]">
@@ -1338,6 +1362,24 @@
       </CLASSES>
       <SOURCES>
         <root url="file:///var/lib/gems/2.3.0/gems/multipart-post-2.0.0/lib" />
+      </SOURCES>
+    </library>
+    <library name="net-ssh (v2.9.2, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/2.3.0/gems/net-ssh-2.9.2/lib" />
+        <root url="file:///var/lib/gems/2.3.0/gems/net-ssh-2.9.2/support" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///var/lib/gems/2.3.0/gems/net-ssh-2.9.2/lib" />
+        <root url="file:///var/lib/gems/2.3.0/gems/net-ssh-2.9.2/support" />
+      </SOURCES>
+    </library>
+    <library name="net-ssh-gateway (v1.2.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/2.3.0/gems/net-ssh-gateway-1.2.0/lib" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///var/lib/gems/2.3.0/gems/net-ssh-gateway-1.2.0/lib" />
       </SOURCES>
     </library>
     <library name="netrc (v0.11.0, ruby-2.3.0-p0) [gem]">
