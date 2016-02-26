@@ -1,6 +1,0 @@
-all:
-  exclude:
-    - vendor/assets/**/*
-    - bin/*
-    - db/schema.rb
-    - db/migrate/*
