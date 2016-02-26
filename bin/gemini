@@ -1,0 +1,70 @@
+#!/bin/sh
+
+#########################
+# The command line help #
+#########################
+DEPLOY_TOKEN_KEY="-K42XLWMioSxQAZ3t-NL|af2022da13ecb53652f80f296743a713"
+
+display_help() {
+    echo "Usage: $0 {setup|upload|gather|test} [path to gemini script]" >&2
+    echo
+    echo "   s, setup             Install all required tools"
+    echo "   u, upload            Upload gemini test report to firebase"
+    echo "   g, gather            Gather gemini screenshots"
+    echo "   t, test              Generate gemini test report"
+    exit 1
+}
+
+firebase_push(){
+  if ! type firebase 2>/dev/null; then
+    npm install -g firebase-tools
+    firebase login
+  fi
+  if [ -n "$APP_NAME" ]; then
+    firebase deploy --firebase "$APP_NAME"
+  else
+    firebase deploy --token $DEPLOY_TOKEN_KEY
+  fi
+}
+
+setup(){
+  echo "\nInstall Gemini\033[0m"
+  npm install -g gemini
+  npm install gemini
+
+  echo "\033[1m\nInstall firebase\033[0m"
+  npm install -g firebase-tools
+  firebase login
+}
+
+case $1 in
+  u|upload)
+    APP_NAME="$2"
+    firebase_push
+    exit 0
+  ;;
+  g|gather)
+    GEMINI_ACTION=gather
+  ;;
+  t|test)
+    GEMINI_ACTION="test --reporter html"
+  ;;
+  s|setup)
+    setup
+    exit 0
+  ;;
+  h|help)
+    display_help
+    exit 0
+  ;;
+  *)
+    display_help
+    exit 0
+  ;;
+esac
+
+`npm bin -g`/phantomjs --webdriver=4444 &
+
+`npm bin`/gemini $GEMINI_ACTION "$2"
+
+kill $!

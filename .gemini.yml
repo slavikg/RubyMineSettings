@@ -1,0 +1,13 @@
+rootUrl: http://localhost:3000
+screenshotsDir: test/fixtures/gemini
+browsers:
+ phantomjs:
+   desiredCapabilities:
+     browserName: phantomjs
+system:
+ coverage:
+   exclude:
+     - css/
+     - tasks/
+     - images/
+     - js/
