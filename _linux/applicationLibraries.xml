@@ -1432,6 +1432,7 @@
     </library>
     <library name="nokogiri (v1.6.7.1, ruby-2.3.0-p0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/nokogiri/1.6.7.1" />
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/bin" />
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/lib" />
@@ -1441,6 +1442,7 @@
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/suppressions" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/nokogiri/1.6.7.1" />
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/bin" />
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/nokogiri-1.6.7.1/lib" />
@@ -1870,11 +1872,13 @@
     </library>
     <library name="raindrops (v0.15.0, ruby-2.3.0-p0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/raindrops/0.15.0" />
         <root url="file:///var/lib/gems/2.3.0/gems/raindrops-0.15.0/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/raindrops-0.15.0/lib" />
         <root url="file:///var/lib/gems/2.3.0/gems/raindrops-0.15.0/archive" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/raindrops/0.15.0" />
         <root url="file:///var/lib/gems/2.3.0/gems/raindrops-0.15.0/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/raindrops-0.15.0/lib" />
         <root url="file:///var/lib/gems/2.3.0/gems/raindrops-0.15.0/archive" />
@@ -2374,12 +2378,14 @@
     </library>
     <library name="thin (v1.6.4, ruby-2.3.0-p0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/thin/1.6.4" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/bin" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/lib" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/example" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/thin/1.6.4" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/bin" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/thin-1.6.4/lib" />
@@ -2478,6 +2484,7 @@
     </library>
     <library name="unicorn (v5.0.1, ruby-2.3.0-p0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/unicorn/5.0.1" />
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/t" />
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/bin" />
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/ext" />
@@ -2487,6 +2494,7 @@
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/Documentation" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/unicorn/5.0.1" />
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/t" />
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/bin" />
         <root url="file:///var/lib/gems/2.3.0/gems/unicorn-5.0.1/ext" />
@@ -2574,6 +2582,7 @@
     </library>
     <library name="yajl-ruby (v1.2.1, ruby-2.3.0-p0) [gem]">
       <CLASSES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/yajl-ruby/1.2.1" />
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/lib" />
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/tasks" />
@@ -2581,6 +2590,7 @@
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/benchmark" />
       </CLASSES>
       <SOURCES>
+        <root url="file://$APPLICATION_CONFIG_DIR$/rubystubs/ruby18/yajl-ruby/1.2.1" />
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/ext" />
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/lib" />
         <root url="file:///var/lib/gems/2.3.0/gems/yajl-ruby-1.2.1/tasks" />
