@@ -1,0 +1,9 @@
+{
+  "firebase": "rails-boilerplate",
+  "public": "gemini-report",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
