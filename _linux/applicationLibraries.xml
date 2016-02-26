@@ -2298,6 +2298,18 @@
         <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-4.1.0/web" />
       </SOURCES>
     </library>
+    <library name="sidekiq-status (v0.6.0, ruby-2.3.0-p0) [gem]">
+      <CLASSES>
+        <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-status-0.6.0/lib" />
+        <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-status-0.6.0/web" />
+        <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-status-0.6.0/gemfiles" />
+      </CLASSES>
+      <SOURCES>
+        <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-status-0.6.0/lib" />
+        <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-status-0.6.0/web" />
+        <root url="file:///var/lib/gems/2.3.0/gems/sidekiq-status-0.6.0/gemfiles" />
+      </SOURCES>
+    </library>
     <library name="signet (v0.7.2, ruby-2.3.0-p0) [gem]">
       <CLASSES>
         <root url="file:///var/lib/gems/2.3.0/gems/signet-0.7.2/lib" />
